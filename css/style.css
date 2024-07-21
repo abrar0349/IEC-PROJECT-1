@@ -34,16 +34,16 @@
     /* border: 2px solid; */
 }
 
-ul .Active{
+.Navbar ul .Active{
     color:var(--TextColorYellow) ;
 }
 
-ul a{
+.Navbar ul a{
     text-decoration: none;
     color:var(--TextColorGray) ;
     font-weight: 700;
 }
-ul a:hover{
+.Navbar ul a:hover{
     color: var(--TextColorYellow);
 }
 
@@ -105,27 +105,79 @@ display: flex;
 }
 
 .section-1-1{
-    border: 2px solid green;
+    padding-top: 8px;
     width: 50vw;
-    height: 80vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.section-1-1 h2{
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+}
+
+.section-1-1 .Icons{
+    width: 100%;
+    display: flex;
+    gap: 5rem;
+    font-size: 1.2rem;
+} 
+.section-1-1 .Icons .Icon1,.Icon2,.Icon3{
+    text-align: center;
+}
+.section-1-1 .Icons .Icon1 i,
+.section-1-1 .Icons .Icon2 i,
+.section-1-1 .Icons .Icon3 i{
+    font-size: 3rem;
 }
 .section-1-2{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 45vw;
-    height: 80vh;
+    height: 70vh;
     background: url('https://deothemes.com/envato/sedona/html/img/intro/1.jpg') no-repeat;
-    back
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
+        /* Home page section 2 code is starting from here  */
+.Home-section-2{
+    padding: var(--LeftRightPadding);
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.Home-section-2 .section-2-1 ul{
+  /* border: 2px solid; */
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding-left: 0;
+  margin-top: 2.5rem;
+}
+.Home-section-2 .section-2-1 ul .Active{
+    color:var(--TextColorYellow) ;
+    border-bottom: 2px solid var(--TextColorYellow);
+}
+.Home-section-2 .section-2-1 ul a{
+    text-decoration: none;
+    color:var(--TextColorGray) ;
+    font-weight: 700;
+} 
+.Home-section-2 .section-2-1 ul a:hover{
+    color: var(--TextColorYellow);
+    border-bottom: 2px solid var(--TextColorYellow);
+}
+.Home-section-2 .section-2-2{
+    margin-top: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+.Home-section-2 .section-2-2 .Images{
+    width: 30%;
+    height: 45vh;
+    border: 2px solid;
+    background: url('https://www.shutterstock.com/shutterstock/photos/16801030/display_1500/stock-photo-modern-single-business-building-in-tropical-country-16801030.jpg'), no-repeat;
+    background-size: cover;
+}
 
