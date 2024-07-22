@@ -94,7 +94,7 @@ div.Contact a p{
     width: 95vw;
     height: 90vh;
     margin: auto;
-    margin-bottom:15px;
+    margin-bottom:30px;
 }
 
         /* Home page section 1 code is starting from here  */
@@ -176,8 +176,80 @@ display: flex;
 .Home-section-2 .section-2-2 .Images{
     width: 30%;
     height: 45vh;
-    border: 2px solid;
+    /* border: 2px solid; */
     background: url('https://www.shutterstock.com/shutterstock/photos/16801030/display_1500/stock-photo-modern-single-business-building-in-tropical-country-16801030.jpg'), no-repeat;
     background-size: cover;
 }
+.Home-section-2 .section-2-2 .Image3{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
 
+        /* Home page section 3 code is starting from here  */
+.Home-section-3{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+    /* background-size: cover; */
+    width: 90vw;
+    cursor: default;
+    padding: 0 , var(--LeftRightPadding);
+    height: 90vh;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Home-section-3 .section-3-1 .Graph1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* color: red; */
+}
+.Home-section-3 .section-3-1 .Graph1 h2{
+    color: white;
+    font-size: 2.5rem;
+}
+.Home-section-3 .section-3-1 .Graph1 p{
+    color: var(--TextColorGray);
+    font-size: 5rem;
+}
+.Home-section-3 .section-3-1 .Graph1 .hd1{
+    color: #FFBB31;
+    font-size: 1.5rem;
+}
+.Home-section-3 .section-3-1 .section-3-1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid gold; */
+}
+.Home-section-3 .section-3-1 .section-3-1-1 i{
+    color: var(--TextColorGray);
+    font-size: 1.5rem;
+}
+
+.Home-section-3 .section-3-1 .section-3-1-1 i:hover{
+    color: white;
+    cursor: pointer;
+}
+.Home-section-3 .section-3-1 .Graph2{
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    color: var(--TextColorGray);
+}
+.Home-section-3 .section-3-1 .Graph2 .hd2{
+    color: white;
+}
+.Home-section-3 .section-3-1 .Graph2 span{
+    color: var(--TextColorYellow);
+}
