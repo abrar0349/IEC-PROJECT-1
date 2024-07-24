@@ -180,6 +180,10 @@ display: flex;
     background: url('https://www.shutterstock.com/shutterstock/photos/16801030/display_1500/stock-photo-modern-single-business-building-in-tropical-country-16801030.jpg'), no-repeat;
     background-size: cover;
 }
+.Home-section-2 .section-2-2 .Image2{
+    background: url('https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'), no-repeat;
+    background-size: cover;
+}
 .Home-section-2 .section-2-2 .Image3{
     background: transparent;
     display: flex;
@@ -191,21 +195,22 @@ display: flex;
 
         /* Home page section 3 code is starting from here  */
 .Home-section-3{
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=400');
-    background-repeat: no-repeat;
-    background-size: 100% 85%;
     background-color: #F9F9F9;
     width: 90vw;
     cursor: default;
-    padding: 0 , var(--LeftRightPadding);
     height: 90vh;
     margin: auto;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
-
+.Home-section-3 .section-3-1{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+}
 .Home-section-3 .section-3-1 .Graph1{
     display: flex;
     flex-direction: column;
@@ -249,6 +254,11 @@ display: flex;
 }
 .Home-section-3 .section-3-1 .Graph2 span{
     color: var(--TextColorYellow);
+}
+.Home-section-3 .section-3-2{
+    /* border: 2px solid goldenrod; */
+    display: flex;
+    justify-content: space-around;
 }
 
     /* Home page section 4 code is starting from here  */
