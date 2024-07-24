@@ -253,7 +253,9 @@ display: flex;
 
     /* Home page section 4 code is starting from here  */
 .Home-section-4{
-    border: 2px solid;
+    height: 90vh;
+    margin-top: 10%;
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     gap: 10%;
@@ -282,7 +284,6 @@ display: flex;
     height: 20vh;
     display: flex;
     justify-content: space-around;
-    /* align-items:center; */
     flex-wrap: wrap;
 }
 .Home-section-4 .section-4-1 .Card p{
@@ -310,9 +311,61 @@ display: flex;
 .Home-section-4 .section-4-2 .Card p{
     margin-top: 1rem;
 }
+.Home-section-4 .section-4-2 .third{
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+}
+.Home-section-4 .section-4-2 .third p{
+    color: var(--TextColorGray);
+}
+.Home-section-4 .section-4-2 .third p:hover{
+    color: black;
+    cursor: pointer;
+}
+.Home-section-4 .section-4-2 .third span{
+    background-color: var(--TextColorGray);
+    color: white;
+    margin-right: 1rem;
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    border-radius: 50%;
+  
+}
 
-
-
+    /* Footer Code is start from here  */
+.Footer{
+    padding: var(--LeftRightPadding);
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+.Footer-main{
+    /* background-color: #FFBB31; */
+    background-image: url('https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.jpg?s=2048x2048&w=is&k=20&c=XH5iPaadYeYCyMoKtts6_heqTcSzCcHgUhe-lqaogZQ=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    margin-bottom: 1px ;
+}
+.Footer ul{
+    list-style: none;
+}
+.Footer ul a{
+    text-decoration: none;
+    color: var(--TextColorGray);
+    line-height: 2.5rem;
+}
+.Footer ul a:hover{
+    color: var(--TextColorYellow);
+    cursor: pointer; 
+}
+.Footer .Footer-main .Social-logo i:hover{
+color: var(--TextColorYellow);
+}
 
 
             /* Contact file code start from here  */
@@ -352,6 +405,8 @@ display: flex;
 .Contact-section-1 .section-1-2{
     color: var(--TextColorGray);
     font-size: 1.5rem;
+    margin-bottom: 50rem;
+    display: block;
 }
 .Contact-section-1 .section-1-2 h2{
     color: black;
@@ -368,6 +423,9 @@ display: flex;
     color: black;
 }
 .Contact-section-1 .section-1-2 .form input:focus{
+    border-bottom: 1px solid var(--TextColorYellow);
+}
+.Contact-section-1 .section-1-2 .form .Inputs input:focus{
     border-bottom: 1px solid var(--TextColorYellow);
 }
 .Contact-section-1 .section-1-2 .form input:focus::placeholder {
