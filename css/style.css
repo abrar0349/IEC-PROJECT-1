@@ -256,7 +256,6 @@ display: flex;
     color: var(--TextColorYellow);
 }
 .Home-section-3 .section-3-2{
-    /* border: 2px solid goldenrod; */
     display: flex;
     justify-content: space-around;
 }
@@ -347,11 +346,8 @@ display: flex;
     /* Footer Code is start from here  */
 .Footer{
     padding: var(--LeftRightPadding);
-    /* position: absolute; */
-    /* bottom: 0; */
 }
 .Footer-main{
-    /* background-color: #FFBB31; */
     background-image: url('https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.jpg?s=2048x2048&w=is&k=20&c=XH5iPaadYeYCyMoKtts6_heqTcSzCcHgUhe-lqaogZQ=');
     background-size: cover;
     background-repeat: no-repeat;
@@ -477,4 +473,157 @@ color: var(--TextColorYellow);
 }
 .Contact-section-1 .section-1-2 .form .btn:hover{
     background-color:rgba(255, 187, 49,0.95);
+}
+
+
+
+
+        /* Contact file code start from here  */
+
+.About-slider{
+    background-image: linear-gradient(rgba(209, 110, 110, 0.1),rgba(231, 122, 122, 0.25)),url('https://media.istockphoto.com/id/1423550628/photo/multi-tasking-computer-programmers-working-in-a-modern-office.jpg?s=1024x1024&w=is&k=20&c=SQDwvPuHgzEf3k8e0h2ahz2d9RjPejVn4cVO4WwpXsc=');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 85vw;
+    margin: auto;
+    padding:var(--LeftRightPadding);
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.About-slider p{
+    font-size: 1.3rem;
+    margin-top: -50px;
+}
+.About-section-1{
+    height: 100vh;
+}
+
+.About-section-1 .section-1-1{
+    width: 65%;
+    margin: auto;
+    font-size: 2.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.About-section-1 .section-1-1 p{
+    color: var(--TextColorGray);
+    font-size: 1.2rem;
+}
+.About-section-1 .section-1-2{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.About-section-1 .section-1-2 .Card{
+    width: 25%;
+    height: 35vh;
+}
+.About-section-1 .section-1-2 .Card .Bgimage{
+   width: 100%;
+   height: 100%;
+   background-image: url('https://deothemes.com/envato/sedona/html/img/services/v-2/1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.About-section-1 .section-1-2 .Card .image2{
+    background-image: url('https://deothemes.com/envato/sedona/html/img/services/v-2/2.jpg');
+}
+.About-section-1 .section-1-2 .Card .image3{
+    background-image: url('https://deothemes.com/envato/sedona/html/img/services/v-2/3.jpg');
+}
+.About-section-1 .section-1-2 .Card .Bgtext{
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 100;
+    bottom: 40%;
+    left: 20%;
+    padding-left: 2.5rem;
+    line-height: 1rem;
+    background-color: white;
+}
+.About-section-1 .section-1-2 .Card .Bgtext p{
+    color: var(--TextColorGray);
+    font-size: 1rem;
+    line-height: 0.6rem;
+}
+.About-section-1 .section-1-2 .Card .Bgtext p span{
+    color: var(--TextColorYellow);
+    font-weight: 700;
+    margin-right: 15px;
+}
+.About-section-2{
+    padding: var(--LeftRightPadding);
+    height: 100vh;
+}
+.About-section-2 .section-2-1{
+    border: none;
+    border-top: 5px solid var(--TextColorGray);
+    border-bottom: 5px solid var(--TextColorGray);
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.About-section-2 .section-2-1 .count{
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1px;
+    width: 25%;
+}
+.About-section-2 .section-2-1 .count p{
+    font-size: 1rem;
+    line-height: 1px;
+}
+.About-section-2 .section-2-2{
+    /* border: 2px solid red; */
+    margin-top: 12%;
+    width: 150vw;
+    display: flex;
+    gap: 20%;
+}
+.About-section-2 .section-2-2 .Blogs{
+    width: 22%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.About-section-2 .section-2-2 .Blogs h2{
+    color: var(--TextColorYellow);
+    font-size: 1rem;
+}
+.About-section-2 .section-2-2 .Blogs h3{
+    font-size: 2.5rem;
+}
+.About-section-2 .section-2-2 .Blogs p{
+    color: var(--TextColorGray);
+}
+.About-section-2 .section-2-2 .section-2-2-1{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.About-section-2 .section-2-2 .section-2-2-1 .Cards{
+    width: 25%;
+}
+.About-section-2 .section-2-2 .section-2-2-1 .Cards .Bgpic{
+    background-image: url('https://images.pexels.com/photos/5490276/pexels-photo-5490276.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% ;
+    height: 60vh;
+}
+.About-section-2 .section-2-3{
+    height: 100vh;
+    background-color: #F9F9F9;
 }
