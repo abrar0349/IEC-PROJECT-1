@@ -429,7 +429,7 @@ display: flex;
     padding: var(--LeftRightPadding);
 }
 .Footer-main{
-    background-image: url('https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.jpg?s=2048x2048&w=is&k=20&c=XH5iPaadYeYCyMoKtts6_heqTcSzCcHgUhe-lqaogZQ=');
+    background-image: url('https://deothemes.com/envato/sedona/html/img/footer/1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
@@ -458,7 +458,7 @@ color: var(--TextColorYellow);
             /* Contact file code start from here  */
 
 .Conslider{
-    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.25)),url('https://images.pexels.com/photos/4065617/pexels-photo-4065617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.25)),url('https://deothemes.com/envato/sedona/html/img/page-title/contact.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 60vh;
@@ -568,7 +568,7 @@ color: var(--TextColorYellow);
 
 
 .About-slider{
-    background-image: linear-gradient(rgba(209, 110, 110, 0.1),rgba(231, 122, 122, 0.25)),url('https://media.istockphoto.com/id/1423550628/photo/multi-tasking-computer-programmers-working-in-a-modern-office.jpg?s=1024x1024&w=is&k=20&c=SQDwvPuHgzEf3k8e0h2ahz2d9RjPejVn4cVO4WwpXsc=');
+    background-image: linear-gradient(rgba(209, 110, 110, 0.1),rgba(231, 122, 122, 0.25)),url('https://deothemes.com/envato/sedona/html/img/page-title/about.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 60vh;
@@ -705,12 +705,20 @@ color: var(--TextColorYellow);
     width: 25%;
 }
 .About-section-2 .section-2-2 .section-2-2-1 .Cards .Bgpic{
-    background-image: url('https://images.pexels.com/photos/5490276/pexels-photo-5490276.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('https://deothemes.com/envato/sedona/html/img/team/1.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100% ;
     height: 60vh;
 }
+.About-section-2 .section-2-2 .section-2-2-1 .Cards .Bgpic2{
+    background-image: url('https://deothemes.com/envato/sedona/html/img/team/2.jpg');
+}
+.About-section-2 .section-2-2 .section-2-2-1 .Cards .Bgpic3{
+    background-image: url('https://deothemes.com/envato/sedona/html/img/team/3.jpg');
+}
+
+
 .About-section-2 .section-2-3{
     height: 70vh;
     background-color: #F9F9F9;
