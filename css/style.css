@@ -112,7 +112,7 @@ div.Contact a p{
     font-size: 3rem;
     position: relative;
 }
-.Slider .Content h3 span{
+/* .Slider .Content h3 span{
     background-color: #FFBB31;
     width: 12px;
     height: 12px;
@@ -120,7 +120,7 @@ div.Contact a p{
     border-radius: 50%;
     bottom: 20%;
     left: 31.5%;
-}
+} */
 .Slider .Content button{
     background-color: var(--TextColorYellow);
     width: 16%;
